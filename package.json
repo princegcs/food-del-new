@@ -7,7 +7,7 @@
   "scripts": {
     "server": "nodemon server.js",
       
-    "build": "npm install && npm install --prefix client && npm run build --prefix client && npm install --prefix admin && npm run build --prefix admin && mv ../public"
+    "build": "npm install && npm install --prefix client && npm run build --prefix client && npm install --prefix admin && npm run build --prefix admin && mv client/build public && mv admin/build public/admin"
 
   },
   "author": "",
